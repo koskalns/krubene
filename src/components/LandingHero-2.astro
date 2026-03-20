@@ -2,13 +2,13 @@
 import siteConfig from '../../site.config.mjs';
 
 const owner = siteConfig.owner;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <div
 	class="absolute top-[80px] bottom-[120px] left-0 right-0 z-0"
 	style={{
-		backgroundImage: 'url(/src/gallery/nature/nature-8.jpg)',
+		backgroundImage: 'url(/src/gallery/paintings/nature-8.jpg)',
 		backgroundSize: 'cover',
 		backgroundPosition: 'center',
 		backgroundRepeat: 'no-repeat',
@@ -22,7 +22,7 @@ const base = import.meta.env.BASE_URL;
 	</h1>
 	<p class="mt-4 text-base md:text-lg text-gray-700">A place to showcase my photography</p>
 	<a
-		href=`${base}/collections`
+		href={`${base}/collections`}
 		class="mt-8 inline-block px-6 py-3 border-2 border-black rounded-md
                       hover:bg-black hover:text-white transition-all duration-300
                       text-sm md:text-base font-medium

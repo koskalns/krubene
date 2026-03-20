@@ -8,19 +8,19 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
-	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
+	title: 'Kristine Rubene',
+	favicon: 'logo.webp',
+	owner: 'Krubene',
 	profileImage: 'profile.webp',
 	socialLinks: [
 		{
 			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
+			url: 'https://github.com/koskalns/krubene',
 			icon: Github,
 		} as SocialLink,
 		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com',
+			url: 'https://www.instagram.com/krubene_art',
 			icon: Instagram,
 		} as SocialLink,
 	],

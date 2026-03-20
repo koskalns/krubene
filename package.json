@@ -10,6 +10,7 @@
 		"prettier": "prettier . --write",
 		"test": "vitest",
 		"lint": "eslint . --ext .ts,.js,.astro",
+		"convert": "node src/scripts/convert-images.js",
 		"generate": "npx tsx src/data/gallery-generator.ts src/gallery"
 	},
 	"devDependencies": {

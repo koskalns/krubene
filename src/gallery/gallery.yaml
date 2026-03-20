@@ -1,90 +1,330 @@
 collections:
-  - id: nature
-    name: Nature
-  - id: travel
-    name: Travel
-  - id: street
-    name: Street
+  - id: paintings
+    name: Paintings
+  - id: aquarells
+    name: Aquarells
+  - id: design
+    name: Design
 images:
-  - path: nature/nature-2.jpg
+  - path: paintings/1_painting.jpg
     meta:
-      title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-3.jpg
-    meta:
-      title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-5.jpg
-    meta:
-      title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/nature-7.jpg
-    meta:
-      title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
-      collections:
-        - featured
-        - nature
-    exif: {}
-  - path: nature/nature-8.jpg
-    meta:
-      title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
-      collections:
-        - nature
-    exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
-        - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
-  - path: nature/nature-10.jpg
-    meta:
-      title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
-      collections:
-        - nature
-    exif: {}
-  - path: street/stree-1.jpg
-    meta:
-      title: Street photography 1
-      description: Urban scene capturing the essence of city life.
-      collections:
-        - featured
-        - street
-    exif: {}
-  - path: travel/travel-1.jpg
-    meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
-      collections:
-        - featured
-        - travel
-    exif: {}
-  - path: nature/nature-1.jpg
-    meta:
-      title: Nature 1
+      title: 1 Cik Dzi Ve Ir Da Sna 110x110
       description: ''
       collections:
-        - nature
+        - paintings
+    exif: {}
+  - path: paintings/2_painting.jpg
+    meta:
+      title: 10 Sa Kums 115x160
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/3_painting.jpg
+    meta:
+      title: 11 I Risi 60x60 Dsc5181
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/4_painting.jpg
+    meta:
+      title: 12 Ziedi Ziedi 80x60 Dsc8539
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/5_painting.jpg
+    meta:
+      title: 13 Lilijas 80x60 Dsc8543
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/6_painting.jpg
+    meta:
+      title: 14 Peonijas 80x60 Dsc8546
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/7_painting.jpg
+    meta:
+      title: 15 Dsc5626 Rozes Un Zemenes 60x60
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/8_painting.jpg
+    meta:
+      title: 16 Dsc 0177
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/9_painting.jpg
+    meta:
+      title: 17 Dsc 0179
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/10_painting.jpg
+    meta:
+      title: 18 Dsc 0183
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/11_painting.jpg
+    meta:
+      title: 19 Dsc 0188
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/12_painting.jpg
+    meta:
+      title: 2 Piena Upe 110x110 Dsc2163
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/13_painting.jpg
+    meta:
+      title: '20'
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/14_painting.jpg
+    meta:
+      title: 21 Dsc5568 Mazais Debesu Spi Deklis 110x140 2020
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/15_painting.jpg
+    meta:
+      title: '22 Dsc5625 Ra Pul I 1 '
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/16_painting.jpg
+    meta:
+      title: 29 Dsc6932
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/17_painting.jpg
+    meta:
+      title: 3 Salds 15x15 Dsc5195
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/18_painting.jpg
+    meta:
+      title: 30 Dsc6934
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/19_painting.jpg
+    meta:
+      title: 31 Dsc6939
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/20_painting.jpg
+    meta:
+      title: 32 Dsc6940
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/21_painting.jpg
+    meta:
+      title: 33 Dsc6938
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/22_painting.jpg
+    meta:
+      title: 34 Dsc6943
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/23_painting.jpg
+    meta:
+      title: 35 Dsc6947
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/24_painting.jpg
+    meta:
+      title: 36 Dsc6951
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/25_painting.jpg
+    meta:
+      title: 37 My Summer Diary 80x115 2012g
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/26_painting.jpg
+    meta:
+      title: 38 Zives
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/27_painting.jpg
+    meta:
+      title: 4 Dsc5616 Un Zvaigznes 110x110 2020
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/28_painting.jpg
+    meta:
+      title: 5 Veltes 110x110 Dsc5231
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/29_painting.jpg
+    meta:
+      title: '6 Su Renes 11x140 Dsc5083 1 '
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/30_painting.jpg
+    meta:
+      title: 7 Dsc5574 Putukre Jums Un Salde Jums 110x110 2021
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/31_painting.jpg
+    meta:
+      title: 8 Visapka Rt Zeme Zied 110x160 Dsc5228
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: paintings/32_painting.jpg
+    meta:
+      title: 9 Debesis 160x80 Dsc5225
+      description: ''
+      collections:
+        - paintings
+    exif: {}
+  - path: aquarells/1_aquarells.jpg
+    meta:
+      title: 1 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: aquarells/2_aquarells.jpg
+    meta:
+      title: 2 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: aquarells/3_aquarells.jpg
+    meta:
+      title: 3 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: aquarells/4_aquarells.jpg
+    meta:
+      title: 4 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: aquarells/5_aquarells.jpg
+    meta:
+      title: 5 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: aquarells/6_aquarells.jpg
+    meta:
+      title: 6 Aquarells
+      description: ''
+      collections:
+        - aquarells
+    exif: {}
+  - path: design/1_design.jpg
+    meta:
+      title: 1 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/2_design.jpg
+    meta:
+      title: 2 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/3_design.jpg
+    meta:
+      title: 3 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/4_design.jpg
+    meta:
+      title: 4 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/5_design.jpg
+    meta:
+      title: 5 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/6_design.jpg
+    meta:
+      title: 6 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/7_design.jpg
+    meta:
+      title: 7 Design
+      description: ''
+      collections:
+        - design
+    exif: {}
+  - path: design/8_design.jpg
+    meta:
+      title: 8 Design
+      description: ''
+      collections:
+        - design
     exif: {}

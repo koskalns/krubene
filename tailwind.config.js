@@ -10,7 +10,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Dancing Script', 'cursive'],
 				playfair: ['Playfair Display', 'serif'],
 			},
 			colors: {
