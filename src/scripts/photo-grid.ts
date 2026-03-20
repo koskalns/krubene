@@ -1,6 +1,8 @@
 import justifiedLayout from 'justified-layout';
 import GLightbox from 'glightbox';
 
+let lightboxInstance: ReturnType<typeof GLightbox> | null = null;
+
 interface JustifiedLayoutResult {
 	/**
 	 * Height of the container containing the justified layout.
@@ -73,12 +75,17 @@ export async function setupGallery() {
 	applyContainerStyleBasedOnLayout(container, layout);
 
 	// Initialize GLightbox
-	GLightbox({
+	if (lightboxInstance) {
+		lightboxInstance.destroy();
+	}
+
+	lightboxInstance = GLightbox({
 		selector: '.glightbox',
-		openEffect: 'zoom',
-		closeEffect: 'fade',
-		width: 'auto',
-		height: 'auto',
+		openEffect: 'none',
+		closeEffect: 'none',
+		slideEffect: 'slide',
+		zoomable: false,
+		draggable: false,
 	});
 }
 
