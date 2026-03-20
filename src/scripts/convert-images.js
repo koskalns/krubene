@@ -30,21 +30,15 @@ async function convertImages() {
 			const outputPath = path.join(OUTPUT_DIR, outputFilename);
 
 			try {
-				// Skip if already exists to avoid duplicates
-				if (fs.existsSync(outputPath)) {
-					console.log(`⏭️  Skipping ${file} (already exists)`);
-					continue;
-				}
-
 				console.log(`Converting: ${file}...`);
 
-				// Resize to max 1200px width, optimize quality
+				// Resize so longest edge is max 2400px, keep quality high
 				await sharp(inputPath)
-					.resize(1200, 800, {
+					.resize(2400, 2400, {
 						fit: 'inside',
 						withoutEnlargement: true,
 					})
-					.jpeg({ quality: 85, progressive: true })
+					.jpeg({ quality: 92, progressive: true, mozjpeg: true })
 					.toFile(outputPath);
 
 				console.log(`✅ Converted: ${file} → ${outputFilename}`);

@@ -35,13 +35,13 @@ async function convertImages() {
 			try {
 				console.log(`Converting: ${file} → ${outputFilename}...`);
 
-				// Resize to max 1200px width, optimize quality
+				// Resize so longest edge is max 2400px, keep quality high
 				await sharp(inputPath)
-					.resize(1200, 800, {
+					.resize(2400, 2400, {
 						fit: 'inside',
 						withoutEnlargement: true,
 					})
-					.jpeg({ quality: 85, progressive: true })
+					.jpeg({ quality: 92, progressive: true, mozjpeg: true })
 					.toFile(outputPath);
 
 				console.log(`✅ Converted: ${outputFilename}`);
