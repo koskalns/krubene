@@ -39,5 +39,9 @@
 		"tailwindcss": "^4.0.14",
 		"tsx": "^4.19.3",
 		"vitest": "^3.1.1"
+	},
+	"dependencies": {
+		"@fontsource/dancing-script": "^5.2.8",
+		"@fontsource/lora": "^5.2.8"
 	}
 }
