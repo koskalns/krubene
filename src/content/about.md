@@ -2,7 +2,7 @@
 title: About me
 ---
 
-### My name is Kristine Rubene, 🖌️
+### My name is Kristine Rubene 🖌️
 
 I am an artist – painter, based in Riga, Latvia. I have been teaching painting in Art Academy of Latvia for 20 years.
 

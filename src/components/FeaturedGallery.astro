@@ -25,13 +25,13 @@ const year = new Date().getFullYear();
 							format="webp"
 							width={image.src.width}
 							height={image.src.height}
-							class="w-full aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-[1.02]"
+							class="w-full aspect-[4/5] object-cover transition-transform duration-1000 group-hover:scale-[1.02]"
 							alt={image.title}
 						/>
 					</div>
-					<div class="pt-3 text-sm text-gray-600 flex items-center justify-between">
-						<span>Placeholder text</span>
-						<span>{year}</span>
+					<div class="pt-3 text-[18px] about-readable text-gray-600 flex items-center justify-between">
+						<span class="font-normal">Placeholder text</span>
+						<span class="font-normal">{year}</span>
 					</div>
 				</article>
 			))
