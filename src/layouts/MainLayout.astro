@@ -6,6 +6,7 @@ import NavBar from '../components/NavBar.astro';
 
 const owner = siteConfig.owner;
 const favicon = siteConfig.favicon;
+const description = siteConfig.description;
 const base = import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -15,6 +16,12 @@ const base = import.meta.env.BASE_URL === '/' ? '' : import.meta.env.BASE_URL.re
 		<link rel="icon" type="image/webp" href={`${base}/${favicon}`} />
 
 		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content={description} />
+		<meta property="og:title" content={owner} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={Astro.url.href} />
+		<link rel="canonical" href={Astro.url.href} />
 		<meta name="generator" content={Astro.generator} />
 		<title>{owner}</title>
 	</head>

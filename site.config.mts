@@ -11,6 +11,7 @@ export default {
 	title: 'Kristine Rubene',
 	favicon: 'logo.webp',
 	owner: 'Krubene',
+	description: 'Kristine Rubene portfolio featuring paintings, aquarells, and design collections.',
 	profileImage: 'profile.webp',
 	socialLinks: [
 		{

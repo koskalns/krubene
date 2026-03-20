@@ -13,7 +13,7 @@ const { images } = Astro.props;
 
 <section id="photo-grid" class="relative w-full mx-auto overflow-hidden">
 	{
-		images.map((image) => (
+		images.map((image, index) => (
 			<a
 				href={image.src.src}
 				class="photo-item glightbox absolute transition-transform duration-1000 hover:scale-[1.02] hover:z-10"
@@ -25,6 +25,10 @@ const { images } = Astro.props;
 					src={image.src}
 					quality={90}
 					format="webp"
+					sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+					widths={[300, 450, 600, 800, 1000, 1200]}
+					loading={index === 0 ? 'eager' : 'lazy'}
+					fetchpriority={index === 0 ? 'high' : 'auto'}
 					width={image.src.width}
 					height={image.src.height}
 					class="w-full h-full object-cover rounded-sm shadow-sm hover:shadow-lg transition-shadow duration-1000"
